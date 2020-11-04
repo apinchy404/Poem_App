@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img1"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        tools:context=".MainActivity3">
+
+        <ImageView
+            android:id="@+id/img_poem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/poem4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="POEM NAME"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="153dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_lyrics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:padding="10dp"
+                android:text="TextView"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_play"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@android:drawable/zoom_plate"
+            android:text="PLAY"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_pause"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@android:drawable/zoom_plate"
+            android:text="PAUSE"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/zoom_plate"
+            android:text="STOP"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</LinearLayout>

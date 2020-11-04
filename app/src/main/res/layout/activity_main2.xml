@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img2"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/btn_poem1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/zoom_plate"
+        android:text="POEM1"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/btn_poem2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/zoom_plate"
+        android:text="POEM2"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/btn_poem3"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:background="@android:drawable/zoom_plate"
+        android:text="POEM3"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="36sp" />
+
+</LinearLayout>
